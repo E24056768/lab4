@@ -2,3 +2,18 @@ A.encode identifier
 
 int average(int n1, float n2)的encode identifier:000000000040070d T _Z7averageif
 double average(double * n1, double & n2) 的encode identifier:00000000004006cd T _Z7averagePdRd 
+
+B.
+這個程式的輸出是
+
+1 8
+4 8
+4 8
+8 8
+
+size of()函數是用來印出變數的位元組大小，
+在32位元的電腦，若data type是char的變數，則佔記憶體1byte
+               若data type是int的變數，則佔記憶體4byte
+               若data type是float的變數，則佔記憶體4byte
+               若data type是double的變數，則佔記憶體8byte
+               若宣告為指標的變數，則佔記憶體8byte
