@@ -1,0 +1,5 @@
+encode identifier
+
+
+int average(int n1, float n2)的encode identifier:000000000040070d T _Z7averageif
+double average(double * n1, double & n2) 的encode identifier:00000000004006cd T _Z7averagePdRd 
