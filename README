@@ -12,8 +12,9 @@ B.
 8 8
 
 size of()函數是用來印出變數的位元組大小，
-在32位元或64位元的電腦，若data type是char的變數，則佔記憶體1byte
-               若data type是int的變數，則佔記憶體4byte
-               若data type是float的變數，則佔記憶體4byte
-               若data type是double的變數，則佔記憶體8byte
-               若宣告為指標的變數，則佔記憶體8byte
+在32位元或64位元的電腦(虛擬機是64位元)，
+若data type是char的變數，則佔記憶體1byte
+若data type是int的變數，則佔記憶體4byte
+若data type是float的變數，則佔記憶體4byte
+若data type是double的變數，則佔記憶體8byte
+若宣告為指標的變數，則佔記憶體8byte
